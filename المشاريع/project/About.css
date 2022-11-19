@@ -1,0 +1,25 @@
+*{margin: 0%; padding: 0%;}
+body{background-color:#eee ; font-family: system-ui;}
+
+
+div{width:1000px ; height: 100px; background-color:white ; margin: auto;
+margin-top:255px ;
+position: relative;}
+
+
+div::before{
+content: "";
+background-color: rgb(84, 202, 250);
+width:10px ;
+height:100% ;
+position: absolute;
+left: 0;}
+
+p{text-align: center;
+padding-top:10px;
+letter-spacing:2px ;}
+
+p::first-letter{color: rgb(84, 202, 250);
+font-size:30px ;}
+
+

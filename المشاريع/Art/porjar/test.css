@@ -1,0 +1,61 @@
+body{
+background-color: rgb(45, 82, 117);
+transition-delay:0.5s ;
+transition-duration:0.5s ;
+transition-property: all;
+}
+
+
+body:hover{
+    background-color: rgb(93, 112, 138);
+}
+
+
+
+.up{
+background-color: rgb(179, 167, 3);
+width:600px ;
+height:200px ;
+margin-left:20rem ;
+margin-top:3rem ;
+border-radius:1000px 1000px 0px 0px ;
+}
+
+.sz{
+    background-color: rgb(73, 26, 26);
+width:600px ;
+height:100px ;
+margin-left:20rem ;
+margin-top:0rem ;
+border-radius:700px 700px 700px 700px ;
+}
+
+.sh{
+    background-color: rgb(255, 251, 0);
+width:700px ;
+height:10px ;
+margin-left:17rem ;
+margin-top:0rem ;
+}
+
+
+
+.s{
+    background-color: rgb(73, 26, 26);
+width:600px ;
+height:100px ;
+margin-left:20rem ;
+margin-top:0rem ;
+border-radius:700px 700px 700px 700px ;
+}
+
+
+
+.ub{
+    background-color: rgb(167, 164, 4);
+    width:600px ;
+    height:100px ;
+    margin-left:20rem ;
+    margin-top:0rem ;
+    border-radius:0px 0px 700px 700px ;
+}

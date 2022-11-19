@@ -1,0 +1,103 @@
+body{background-color:#ff8700;}
+
+
+*{margin: 0%; padding: 0%;};
+
+body{font-family: system-ui;}
+
+
+.con{display: grid;
+width: 80%;
+height: 80vh;
+background-color: #eee;
+margin: auto; 
+margin-top: 10vh;
+overflow: hidden;
+border-radius: 20px;
+border: 2px black dashed;
+grid-template-columns: 2fr 3fr;}
+
+
+
+
+.img{  margin: 15px;
+background-image: url(Sign\ up-cuate.png);
+background-size: 500px;
+background-repeat:no-repeat ;
+background-position: center center;
+background-color: #eee;
+border-radius: 20px;
+}
+
+.text{background-color:rgba(238, 238, 238, 0.774), 0.781), 0.781), 0.781), 0.781), 0.781); margin: 15px; text-align: center;}
+
+
+h2{
+color: #ff8700;
+text-align: left;
+margin: 3%;
+}
+
+
+input[type="text"]{width: 50%; 
+height: 4vh;
+text-align: center;
+border-radius: 20px;
+border: none;
+margin-top: 5px;
+margin-bottom: 4vh;}
+
+
+input[type="email"]{width: 50%; 
+height: 4vh;
+text-align: center;
+border-radius: 20px;
+border: none;
+margin-top: 5px;
+margin-bottom: 4vh;}
+
+
+input[type="password"]{width: 50%; 
+height: 4vh;
+text-align: center;
+border-radius: 20px;
+border: none;
+margin-top: 5px;
+margin-bottom: 4vh;}
+
+
+
+
+
+.pre{text-align: left;
+margin: 2%;
+
+}
+
+.for{
+margin-top: 3vh;}
+
+span{color: #ff8700;}
+
+
+
+input[type="checkbox"]{background-color: black; width: 15px;}
+
+
+button{padding: 8px; border-radius:20px; border: 2px solid rgb(255, 255, 255);
+margin-left: 5%;
+background-color: #eee;}
+a{color:#000000;
+text-decoration: none;}
+
+
+input[type="submit"]{width: 20%; 
+height: 4vh;
+text-align: center;
+border-radius: 20px;
+border: none;
+
+background-color: #ff8700;
+color: #eee;
+margin: 20px;}
+

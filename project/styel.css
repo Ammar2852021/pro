@@ -1,0 +1,366 @@
+*{margin: 0%; padding: 0%;}
+
+body{background-color:black;
+font-family: system-ui;}
+
+/* start nav */
+.nav{width: 100%; height: 10vh;
+border-bottom:10px solid orange ;
+position: fixed;
+
+background-color: black;}
+.nav ul{display: inline-block; margin: 25px;
+padding-left:10px ;
+list-style-type: none;}
+.nav ul li a{color: white; text-decoration: none;}
+.nav ul li a:hover{color:orange;
+transition-duration: 0.5s;
+text-decoration: overline;}
+/* end nav */
+
+/* start text */
+.text{width: 80%; 
+height: 30vh; 
+margin: auto; display: inline-block; 
+margin-top: 20vh;
+/* margin-bottom: 10vh;  */
+background-color: #ffa500;}
+h1{text-align: center;
+margin-top: 7vh;
+font-size: 10ch;
+color:rgb(184, 3, 3);}
+h1 span{transition-duration: 0.5s;}
+h1:hover span:nth-child(1)
+{margin-left: 50px;}
+h1:hover span{
+color:#fff ;
+text-shadow: 0 0 10px #fff,
+0 0 420px #fff,
+0 0 80px #fff,
+0 0 120px #fff;}
+/* end text */
+
+.abut{width: 97%;
+height: 50vh;
+margin: auto;
+margin-bottom: 20vh;
+margin-top: 10vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-auto-rows: minmax(100px,auto);}
+.o{margin: 10px;}
+
+.en{font-size: 15pc;
+text-align: center;
+margin-top: -20px;
+color: orange;}
+
+.o button{width: 25%;
+height: 5vh;
+border: none;
+margin-top:5px ;
+background-color: orange;
+margin-top:15px ;
+border-radius: 3px;}
+
+.o button a 
+{color: white;
+text-decoration: none;}
+
+span{color:white;}
+
+.abs{color: white;
+padding: 90px;}
+
+
+.im{width: 130%;
+height: 40vh;
+background-color:#222;
+margin-left: -80px;
+margin-top: 36px;}
+
+.conect{width: 100%;
+height: 80vh;
+/* background-color: antiquewhite; */
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-auto-rows: minmax(100px,auto);
+margin-bottom: 10vh;}
+
+#img{grid-template-columns: 1fr;
+grid-auto-rows: minmax(100px,auto);
+display: inline-block;
+margin: 15px;
+padding-top: 30px;}
+
+#box{
+margin: 30px;
+background-color: black;
+border: dashed 2px #ffa500;
+border-radius: 10px;
+background-image: url(/lf30_editor_fx0gy8g7-150x150\ \(2\).gif);
+background-size: 150px;
+background-repeat: no-repeat;
+background-position: center center;}
+
+.mero{background-color: #222;
+border-radius: 10px;
+margin: 10px;
+margin-top: 10px;}
+
+#mero{width: 8%;
+display: inline-block;
+height: 10vh;background-color: black;
+margin: 10px;
+margin-left: 15px;
+border-radius: 50%;
+border: 3px solid orange ;}
+
+.mero:hover {background-color: orange;
+transition-duration: 0.5s;}
+
+.conect{margin: 20vh 0vh;}
+
+.no{display: inline-block;
+width: 85%;
+padding: 10px;
+float: right;
+margin-top: 10px;}
+
+.no button{float: right;
+margin-top: -40px;
+width: 20%;
+height: 5vh;
+border-radius: 20px;
+display: inline-block;
+margin-right: 90px;
+border: 2px solid orange;
+color: white;
+background-color: black;}
+
+.no button a{color: white;
+font-size: 15px;
+text-decoration: none;}
+
+.no h2{margin-bottom: 0px;
+display: inline-block;
+color: white;}
+
+.no p{
+color:#eee;}
+
+.face{background-image: url(facebook.png);
+background-position: center center;
+background-size: 60px;
+background-repeat: no-repeat;}
+
+.ins{background-image: url(instagram.png);
+background-position: center center;
+background-size: 60px;
+background-repeat: no-repeat;}
+
+.twe{background-image: url(twitter.png);
+background-position: center center;
+background-size: 60px;
+background-repeat: no-repeat;}
+
+.who{background-image: url(whatsapp.png);
+background-position: center center;
+background-size: 60px;
+background-repeat: no-repeat;}
+
+.projects{width: 97%;
+height: 40vh;
+/* background-color: #eee; */
+margin: auto;
+margin-bottom:10px ;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/* grid-auto-rows: minmax(100px,auto); */
+overflow: hidden;
+color: white; }
+
+.jects{background-color:#222;
+height: 35vh;
+
+margin: 10px;
+border-radius: 10px;}
+
+.jects button{width: 40%;
+height: 10vh;
+margin-top: 10px;
+margin-left: 120px;
+background-color: rgb(0, 0, 0);
+border: none;
+border-radius: 5px;}
+
+.jects button a{text-decoration: none;
+color: white;
+text-align: center;}
+
+.jects h2{margin: 20px;}
+.jects p{margin: 20px;}
+
+.like{width: 100%;
+margin-bottom: 8vh;
+height: 20vh;}
+
+.bx-signal-3
+{font-size: 1cm;
+margin-top: 2vh;}
+
+.ion{color: orange;
+margin-left: 210px;
+background-color: black;
+padding: 10px 20px;
+border-radius: 50%;}
+
+.me
+{width: 97%;
+margin: auto;
+height: 60vh;
+display: grid;
+grid-template-columns:3fr 1fr ;
+overflow: hidden;
+margin-bottom: 2vh;
+border-radius:20px ;}
+
+/* 
+.zc{background-color: #ffa500;} */
+
+
+.str
+{/* background-image: url(ggx.jpg); */
+background-position: center center;
+background-size: 300px;
+margin: 10px;
+border-radius:  20px;
+color: white;
+background-repeat: no-repeat;}
+
+.hb{color: orange;}
+
+.me .iom h2{margin: 20px;
+color: white;
+margin-left: 75px;
+margin-bottom: 50px;}
+
+.me .iom p{
+color: white;
+margin-left: 75px;}
+
+.html{width: 96%;
+height: 50vh;
+margin: auto;
+background-color: aquamarine;}
+
+.hk{width: 70px;
+height: 70px;
+background-color: #222;
+display: inline-block;
+border-radius: 50%;
+margin: 15px;
+border: 2px solid orange;
+margin: 20px;
+float: right;
+margin-left: 20px;}
+
+/* .zxxc{margin-left: 300px;} */
+
+.ughkh{background-image: url(ggx.jpg);
+background-position: center top ;
+background-size: 100px;}
+
+.zxxc{background-image: url(/project/re.jpg);
+margin-right: 90px;
+background-position: center top ;
+background-size:80px;}
+
+.lolol{background-image: url(/project/mero.jpg);
+background-position: top ;
+background-size: 70px;}
+
+footer
+{width: 100%;
+height: 50vh;
+/* background-color: #ffa500; */
+margin-top: 35vh;
+display: grid;
+grid-template-columns: 2fr 1fr 1fr 2fr;}
+
+.fot{background-color: black;
+margin: 10px;}
+
+.thef h2
+{color: #ffa500;margin: 20px;}
+
+.thef p{
+margin: 20px;
+color: white;}
+
+
+.github{color: white;
+font-size: 20px;}
+
+.linkedin{
+font-size: 20px;   
+color: white;}
+
+.google{
+font-size: 20px;   
+color: white;
+margin-left: 21px;}
+
+.lol h2{
+color: #ffa500;
+margin: 20px;}
+
+.lol p{margin: 15px 10px;
+color: white;}
+
+.lol ul
+{margin: 3px;}
+
+.lol  a
+{color: white;
+text-decoration: none;}
+
+.t{color: orange;
+margin: 0px 10px;
+font-size: 20px;}
+
+.my h2
+{color: #ffa500;
+margin: 20px;}
+
+.my p
+{margin: 20px;
+color: white;}
+
+.my ul{margin: 30px;}
+
+.my a{
+color: white;
+text-decoration: none;}
+
+.pi h2
+{color: #ffa500;
+margin: 20px;}
+
+.pi p{
+margin: 20px;
+color: white;}
+
+.pi ul{color: white;
+margin: 10px;}
+
+.pi a{
+color: white;
+text-decoration: none;}
+
+.theend{width: 100%;
+height: 10vh;
+background-color: orange;
+text-align: center;}
+
+.theend p{padding-top: 22px;}
